@@ -17,7 +17,7 @@ $queryBuilder = $conn->createQueryBuilder();
 ?>
 <head>
     <meta charset="UTF-8">
-    <title>Änderungen</title>
+    <title>SRPS-Turniere</title>
 
     <style type="text/css" media="screen">
         .centered-wrapper {
@@ -57,9 +57,9 @@ $queryBuilder = $conn->createQueryBuilder();
     <br>
     <div class="centered-content">
         <select name="moveA" id="moveA">
-            <option value="scissor">Scissor</option>
-            <option value="paper">Paper</option>
-            <option value="rock">Rock</option>
+            <option value="Scissor">Scissor</option>
+            <option value="Paper">Paper</option>
+            <option value="Rock">Rock</option>
         </select>
     </div>
     <br>
@@ -72,9 +72,9 @@ $queryBuilder = $conn->createQueryBuilder();
     <br>
     <div class="centered-content">
         <select name="moveB" id="moveB">
-            <option value="scissor">Scissor</option>
-            <option value="paper">Paper</option>
-            <option value="rock">Rock</option>
+            <option value="Scissor">Scissor</option>
+            <option value="Paper">Paper</option>
+            <option value="Rock">Rock</option>
         </select>
     </div>
     <br>
